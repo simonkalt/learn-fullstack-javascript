@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "firefox",
+            "request": "launch",
+            "name": "WaterFox",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "firefoxExecutable": "C:\\Program Files\\Waterfox\\waterfox.exe"
+        },
+        {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
